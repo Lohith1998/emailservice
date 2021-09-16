@@ -8,7 +8,7 @@ pool:
   vmImage: 'ubuntu-latest'
  
 variables:
-  ImageName: '172054/email:$(Build.BuildId)'
+  ImageName: '172054/email.services:$(Build.BuildId)'
  
 stages:
 - stage: Build
