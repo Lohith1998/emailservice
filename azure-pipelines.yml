@@ -55,7 +55,7 @@ stages:
 
         targetType: 'inline'
 
-        script: 'sed -i ''s#containerImage#$(ImageName)#g'' frontend.yaml' 
+        script: 'sed -i ''s#containerImage#$(ImageName)#g'' emailservice.yaml' 
 
 
     - task: Kubernetes@1
